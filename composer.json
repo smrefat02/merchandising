@@ -1,0 +1,24 @@
+{
+  "name": "applets/merchandising",
+  "description": "Merchandising Sales Contract Management Package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Applets\\Merchandising\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0|^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Applets\\Merchandising\\Providers\\MerchandisingServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
