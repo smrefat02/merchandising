@@ -5,7 +5,8 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Applets\\Merchandising\\": "src/"
+      "Applets\\Merchandising\\": "src/",
+      "Applets\\Merchandising\\Database\\Seeders\\": "database/seeders/"
     }
   },
   "require": {
